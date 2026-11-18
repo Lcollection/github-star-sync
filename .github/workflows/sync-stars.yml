@@ -1,0 +1,87 @@
+name: Sync GitHub Stars and Publish Pages
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Every day at 03:17 UTC (12:17 JST)
+    - cron: '17 3 * * *'
+  push:
+    paths:
+      - '.github/workflows/sync-stars.yml'
+      - 'web/**'
+      - 'scripts/**'
+      - 'tests/**'
+      - 'README.md'
+      - 'stars.json'
+      - 'STARS.md'
+
+concurrency:
+  group: starfield-pages-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  build:
+    # Ignore non-default branches. Schedule and workflow_dispatch use the default branch.
+    if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Test project
+        run: python -m unittest discover -s tests -v
+
+      - name: Fetch starred repositories
+        env:
+          STAR_USERNAME: Lcollection
+          GITHUB_TOKEN: ${{ github.token }}
+          # Optional personal access token for additional account-level visibility.
+          STAR_TOKEN: ${{ secrets.STAR_TOKEN }}
+        run: python scripts/sync_stars.py
+
+      - name: Commit updated snapshot
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add stars.json STARS.md
+          if git diff --cached --quiet; then
+            echo 'No changes in starred repositories.'
+          else
+            git commit -m 'chore: sync GitHub stars'
+            git push
+          fi
+
+      - name: Build static site
+        run: python scripts/build_site.py --data stars.json --out _site
+
+      - name: Set up GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload website artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+  deploy:
+    if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.publish.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: publish
+        uses: actions/deploy-pages@v4

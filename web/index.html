@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0c1020">
+  <meta name="description" content="A searchable, automatically synced collection of GitHub starred repositories.">
+  <meta name="color-scheme" content="dark light">
+  <title>Starfield · GitHub 收藏图鉴</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <a href="#main" class="skip-link">跳转到内容</a>
+  <div class="app-shell">
+    <header class="site-header">
+      <a class="brand" href="./" aria-label="Starfield 首页">
+        <span class="brand-mark" aria-hidden="true">✳</span>
+        <span>starfield<span class="brand-dot">.</span></span>
+      </a>
+      <nav class="header-links" aria-label="外部链接">
+        <a id="profile-link" href="https://github.com/Lcollection" target="_blank" rel="noopener noreferrer" class="nav-link">GitHub Profile <span aria-hidden="true">↗</span></a>
+        <button type="button" class="theme-button" id="theme-toggle" aria-label="切换亮色或暗色主题" title="切换主题">☼</button>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="orb orb-one" aria-hidden="true"></div>
+        <div class="orb orb-two" aria-hidden="true"></div>
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="status-dot" aria-hidden="true"></span> AN OPEN SOURCE CONSTELLATION <span class="eyebrow-line"></span> GITHUB STAR ARCHIVE</div>
+          <h1 id="hero-title">好奇心的<br><em>收藏坐标。</em></h1>
+          <p class="hero-description">每一个 Star，都是一次值得保留的发现。<br>浏览、筛选并重新找到那些有价值的开源项目。</p>
+          <div class="hero-meta"><span class="meta-icon" aria-hidden="true">↗</span> <span id="hero-owner">@Lcollection</span><span class="meta-divider" aria-hidden="true"></span><span>由 GitHub Actions 持续同步</span></div>
+        </div>
+        <div class="hero-graphic" aria-hidden="true">
+          <div class="orbit orbit-outer"></div>
+          <div class="orbit orbit-middle"></div>
+          <div class="orbit orbit-inner"></div>
+          <span class="orbit-star star-a">✦</span><span class="orbit-star star-b">✧</span><span class="orbit-star star-c">✦</span>
+          <div class="graphic-center">✳</div>
+          <span class="graphic-label">COLLECT · EXPLORE · BUILD</span>
+        </div>
+      </section>
+
+      <section class="stats" aria-label="收藏数据概览">
+        <div class="stat"><div class="stat-label"><span class="stat-glyph">✳</span> STARRED REPOS</div><div class="stat-value" id="stat-total">—</div><div class="stat-note">已保存的开源项目</div></div>
+        <div class="stat"><div class="stat-label"><span class="stat-glyph">⌘</span> LANGUAGES</div><div class="stat-value" id="stat-languages">—</div><div class="stat-note">涵盖的编程语言</div></div>
+        <div class="stat"><div class="stat-label"><span class="stat-glyph">#</span> TOPICS</div><div class="stat-value" id="stat-topics">—</div><div class="stat-note">累计技术主题标签</div></div>
+        <div class="stat"><div class="stat-label"><span class="stat-glyph">↗</span> LATEST STAR</div><div class="stat-value stat-value-date" id="stat-latest">—</div><div class="stat-note">最近一次收藏日期</div></div>
+      </section>
+
+      <section class="catalog" aria-labelledby="catalog-title">
+        <div class="section-heading">
+          <div><div class="section-kicker">THE COLLECTION / 001</div><h2 id="catalog-title">探索收藏<span class="heading-accent">.</span></h2></div>
+          <div class="catalog-caption">CURATED BY CURIOSITY <span>✦</span> SYNCED WITH CODE</div>
+        </div>
+        <div class="catalog-grid">
+          <aside class="sidebar" aria-label="筛选项目">
+            <div class="sidebar-heading"><h3>筛选器</h3><button id="reset-filters" type="button" class="text-button">清除全部</button></div>
+            <section class="filter-block" aria-labelledby="language-heading">
+              <div class="filter-heading"><h4 id="language-heading">编程语言</h4><span id="language-total" class="filter-hint"></span></div>
+              <div id="language-filters" class="language-list"></div>
+              <button id="more-languages" type="button" class="expand-button" hidden>显示更多语言 <span aria-hidden="true">↓</span></button>
+            </section>
+            <section class="filter-block" aria-labelledby="topic-heading">
+              <div class="filter-heading"><h4 id="topic-heading">热门 Topics</h4></div>
+              <div id="topic-filters" class="topic-list"></div>
+            </section>
+            <div class="sidebar-footnote"><span aria-hidden="true">✳</span> 一个持续生长的开源知识地图。</div>
+          </aside>
+          <div class="results-panel">
+            <div class="toolbar">
+              <label class="search-wrap" for="search"><span aria-hidden="true" class="search-icon">⌕</span><input id="search" type="search" placeholder="搜索仓库、描述、语言或 Topics..." autocomplete="off"><kbd>/</kbd></label>
+              <label class="sort-wrap" for="sort"><span class="visually-hidden">排序方式</span><select id="sort"><option value="newest">最近收藏</option><option value="oldest">最早收藏</option><option value="name">名称 A–Z</option><option value="name-desc">名称 Z–A</option></select></label>
+            </div>
+            <div class="result-meta"><div><strong id="result-count">—</strong> <span>个项目</span><span id="active-indicator" class="active-indicator"></span></div><div class="view-label">REPOSITORIES <span aria-hidden="true">↘</span></div></div>
+            <div id="active-filters" class="active-filters" hidden></div>
+            <div id="loading-state" class="message-state" role="status"><div class="message-symbol">✳</div><h3>正在读取收藏档案</h3><p>从本地同步数据加载中…</p></div>
+            <div id="empty-state" class="message-state" hidden><div class="message-symbol">⌕</div><h3>没有匹配的项目</h3><p>尝试其他关键词，或者移除部分筛选条件。</p><button class="primary-button" id="empty-reset" type="button">清除筛选</button></div>
+            <div id="error-state" class="message-state" role="alert" hidden><div class="message-symbol">!</div><h3>无法加载收藏数据</h3><p id="error-description">请先运行 GitHub Actions 同步数据。</p><button class="primary-button" id="retry-load" type="button">重新加载</button></div>
+            <div id="repo-grid" class="repo-grid" aria-live="polite" aria-label="仓库列表" hidden></div>
+            <div class="load-more-container"><button id="load-more" type="button" class="load-more" hidden>加载更多项目 <span aria-hidden="true">↓</span></button><span id="shown-count" class="shown-count"></span></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer"><div class="footer-brand">✳ <strong>starfield.</strong> <span>发现值得珍藏的代码。</span></div><div>Built with curiosity <span aria-hidden="true">✦</span> Powered by GitHub Actions & Pages</div></footer>
+  </div>
+</body>
+</html>
