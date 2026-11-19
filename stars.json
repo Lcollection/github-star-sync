@@ -1,7 +1,32 @@
 {
   "username": "Lcollection",
-  "count": 1115,
+  "count": 1117,
   "repositories": [
+    {
+      "full_name": "ZTE-AICloud/Co-Sight",
+      "url": "https://github.com/ZTE-AICloud/Co-Sight",
+      "description": "",
+      "language": "Python",
+      "topics": [
+        "agent",
+        "aicloud",
+        "aim",
+        "zte"
+      ],
+      "starred_at": "2026-11-19T09:35:42Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "full_name": "linux-do/mapp-developer-guide",
+      "url": "https://github.com/linux-do/mapp-developer-guide",
+      "description": "",
+      "language": "JavaScript",
+      "topics": [],
+      "starred_at": "2026-11-19T03:16:39Z",
+      "archived": false,
+      "fork": false
+    },
     {
       "full_name": "mit-han-lab/pear",
       "url": "https://github.com/mit-han-lab/pear",
@@ -3480,7 +3505,7 @@
     {
       "full_name": "razvandimescu/numa",
       "url": "https://github.com/razvandimescu/numa",
-      "description": "Portable DNS resolver in Rust: .numa local domains, ad blocking, developer overrides, DoT/DoH/ODoH, DNSSEC",
+      "description": "Portable DNS resolver in Rust: .numa local domains, ad blocking, developer overrides, DoT/DoH/ODoH and DNSSEC",
       "language": "Rust",
       "topics": [
         "ad-blocking",
@@ -3996,7 +4021,7 @@
     {
       "full_name": "heygen-com/hyperframes",
       "url": "https://github.com/heygen-com/hyperframes",
-      "description": "Write HTML. Render video. Built for agents.",
+      "description": "AI video you can actually edit. HyperFrames is a free, open-source AI video editor. Describe any video and get a real project you can change down to the frame.",
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -5598,14 +5623,19 @@
     {
       "full_name": "nanocoai/nanoclaw",
       "url": "https://github.com/nanocoai/nanoclaw",
-      "description": "A lightweight alternative to OpenClaw that runs in containers for security. Connects to WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps,, has memory, scheduled jobs, and runs directly on Anthropic's Agents SDK",
+      "description": "Your own always-on AI assistant: self-hosted, open source, lightweight. Each agent runs in its own container on your machine, on the harness you choose (Claude Code, Codex, Cursor, OpenCode). Talk to it from Slack, WhatsApp, Telegram, Discord and more.",
       "language": "TypeScript",
       "topics": [
         "ai-agents",
         "ai-assistant",
         "claude-code",
         "claude-skills",
-        "openclaw"
+        "codex",
+        "cursor",
+        "docker",
+        "openclaw",
+        "opencode",
+        "self-hosted"
       ],
       "starred_at": "2026-03-06T06:05:03Z",
       "archived": false,
@@ -5860,7 +5890,7 @@
       "full_name": "agentscope-ai/QwenPaw",
       "url": "https://github.com/agentscope-ai/QwenPaw",
       "description": "Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports multiple chat apps with easily extensible capabilities.",
-      "language": "TypeScript",
+      "language": "Python",
       "topics": [
         "agent",
         "agent-harness",
@@ -8580,7 +8610,7 @@
     {
       "full_name": "vipshop/cache-dit",
       "url": "https://github.com/vipshop/cache-dit",
-      "description": "A PyTorch-native inference engine with cache, parallelism, quantization and cpu offload for 100+ DiTs.",
+      "description": "A PyTorch-native inference engine with cache, parallelism, quantization and cpu offload for DiTs.",
       "language": "Python",
       "topics": [
         "flux2-klein",
@@ -14427,7 +14457,7 @@
     {
       "full_name": "jingyaogong/minimind",
       "url": "https://github.com/jingyaogong/minimind",
-      "description": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
+      "description": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
       "language": "Python",
       "topics": [
         "artificial-intelligence",
