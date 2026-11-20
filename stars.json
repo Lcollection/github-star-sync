@@ -1,7 +1,91 @@
 {
   "username": "Lcollection",
-  "count": 1117,
+  "count": 1121,
   "repositories": [
+    {
+      "full_name": "BGI-shenzhen/LDBlockShow",
+      "url": "https://github.com/BGI-shenzhen/LDBlockShow",
+      "description": "LDBlockShow: a fast and convenient tool for visualizing linkage disequilibrium and haplotype blocks based on VCF files",
+      "language": "Perl",
+      "topics": [
+        "gwas",
+        "ld",
+        "ld-block",
+        "ld-heatmap",
+        "linkage-disequilibria"
+      ],
+      "starred_at": "2026-11-20T05:14:10Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "full_name": "elementalsouls/Claude-BugHunter",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+      "language": "Python",
+      "topics": [
+        "ai-security",
+        "anthropic",
+        "application-security",
+        "bug-bounty",
+        "bugbounty",
+        "bugcrowd",
+        "claude",
+        "claude-code",
+        "claude-skills",
+        "ethical-hacking",
+        "hackerone",
+        "offensive-security",
+        "pentesting",
+        "red-team",
+        "security-tools",
+        "web-security"
+      ],
+      "starred_at": "2026-11-20T05:14:05Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "full_name": "BaaRai/ARTEX",
+      "url": "https://github.com/BaaRai/ARTEX",
+      "description": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
+      "language": "Go",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "autonomous-agents",
+        "bug-bounty",
+        "docker",
+        "golang",
+        "linux",
+        "llm",
+        "mcp",
+        "nextjs",
+        "penetration-testing",
+        "pentest",
+        "postgresql",
+        "rea",
+        "react",
+        "red-team",
+        "security",
+        "security-automation",
+        "sqlite",
+        "typescript"
+      ],
+      "starred_at": "2026-11-20T05:14:05Z",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "full_name": "Alrightlone/stroke-by-stroke",
+      "url": "https://github.com/Alrightlone/stroke-by-stroke",
+      "description": "Repaint any picture stroke by stroke, with a brush written in code.",
+      "language": "HTML",
+      "topics": [],
+      "starred_at": "2026-11-20T02:48:09Z",
+      "archived": false,
+      "fork": false
+    },
     {
       "full_name": "ZTE-AICloud/Co-Sight",
       "url": "https://github.com/ZTE-AICloud/Co-Sight",
@@ -5354,8 +5438,8 @@
       "fork": false
     },
     {
-      "full_name": "NovaSky-AI/SkyRL",
-      "url": "https://github.com/NovaSky-AI/SkyRL",
+      "full_name": "skyrl-project/SkyRL",
+      "url": "https://github.com/skyrl-project/SkyRL",
       "description": "SkyRL: A Modular Full-stack RL Library for LLMs",
       "language": "Python",
       "topics": [],
