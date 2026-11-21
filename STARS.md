@@ -173,7 +173,7 @@
 | 167 | [deepseek-ai/DeepSpec](https://github.com/deepseek-ai/DeepSpec) | Python | 2026-06-30 | DeepSpec: a full-stack codebase for training and evaluating speculative decoding algorithms |
 | 168 | [triple-mu/fast-ulysses](https://github.com/triple-mu/fast-ulysses) | Python | 2026-06-29 | Ulysses sequence-parallel all-to-all as a torch custom op, moved by the GPU copy engines into torch symmetric memory. Zero SM usage; 1.66-2… |
 | 169 | [benchflow-ai/awesome-evals](https://github.com/benchflow-ai/awesome-evals) | — | 2026-06-26 | A curated, non-BS library of the best resources for building and evaluating AI agents — papers, blogs, talks, tools, benchmarks. Maintained… |
-| 170 | [NVIDIA-BioNeMo/bionemo-agent-toolkit](https://github.com/NVIDIA-BioNeMo/bionemo-agent-toolkit) | Python | 2026-06-25 | Turn any agent into a life science expert with NVIDIA BioNeMo skills. |
+| 170 | [NVIDIA-BioNeMo/bionemo-agent-toolkit](https://github.com/NVIDIA-BioNeMo/bionemo-agent-toolkit) | HTML | 2026-06-25 | Turn any agent into a life science expert with NVIDIA BioNeMo skills. |
 | 171 | [RosettaCommons/foundry](https://github.com/RosettaCommons/foundry) | Python | 2026-06-24 | Central repository for biomolecular foundation models with shared trainers and pipeline components |
 | 172 | [Waishnav/devspace](https://github.com/Waishnav/devspace) | TypeScript | 2026-06-23 | Minimal Coding Agent Harness on MCP for ChatGPT, Claude, Hermes, Grok Bot, OpenClaw |
 | 173 | [lyra81604/zhengxi-views](https://github.com/lyra81604/zhengxi-views) | Python | 2026-06-23 | 可溯源的郑希(易方达基金经理)投研 Agent Skill——基于他全部公开观点原文 + 有原话佐证的投资方法 + 全市场基金真实数据，能溯源问答、按他框架给基金打分，绝不杜撰。⚠️仅研究学习辅助，不构成投资建议‼️website是郑希主页！ |
@@ -264,7 +264,7 @@
 | 258 | [kenjihiranabe/The-Art-of-Linear-Algebra](https://github.com/kenjihiranabe/The-Art-of-Linear-Algebra) | PostScript | 2026-04-24 | Graphic notes on Gilbert Strang's "Linear Algebra for Everyone" |
 | 259 | [op7418/guizang-ppt-skill](https://github.com/op7418/guizang-ppt-skill) | HTML | 2026-04-24 | AI-agent Skill for generating polished HTML slide decks: editorial magazine and Swiss layouts, image prompts, social covers, and a WebGL/lo… |
 | 260 | [larksuite/cli](https://github.com/larksuite/cli) | Go | 2026-04-24 | The official Lark/飞书 CLI tool, maintained by the larksuite team — built for humans and AI Agents. Covers core business domains including Me… |
-| 261 | [alchaincyf/huashu-design](https://github.com/alchaincyf/huashu-design) | HTML | 2026-04-24 | Huashu Design 3.0 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三个方向 · 84 种带样张的风格库 · 越用越懂你的外观账本与设计体检 · HTML-native desi… |
+| 261 | [alchaincyf/huashu-design](https://github.com/alchaincyf/huashu-design) | HTML | 2026-04-24 | Huashu Design 3.4 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / App Store 宣传图 / 小红书图文 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三个方向 · 92 种带样张的风格库 · 该是图的地方放真图 … |
 | 262 | [Tencent-Hunyuan/Hy3-preview](https://github.com/Tencent-Hunyuan/Hy3-preview) | Python | 2026-04-23 | Hy3 preview (295B A21B), a leading reasoning and agent model in its size, with great cost efficiency |
 | 263 | [ChrisHayduk/minAlphaFold2](https://github.com/ChrisHayduk/minAlphaFold2) | Python | 2026-04-23 | A minimal PyTorch re-implementation of AlphaFold2's model & training |
 | 264 | [deepseek-ai/TileKernels](https://github.com/deepseek-ai/TileKernels) | Python | 2026-04-23 | A kernel library written in tilelang |
@@ -488,7 +488,7 @@
 | 482 | [NVIDIA/TensorRT-Edge-LLM](https://github.com/NVIDIA/TensorRT-Edge-LLM) | Python | 2026-01-10 | High-performance, light-weight C++ LLM and VLM Inference Software for Physical AI |
 | 483 | [SandAI-org/MagiAttention](https://github.com/SandAI-org/MagiAttention) | Python | 2026-01-09 | A Distributed Attention Towards Linear Scalability for Ultra-Long Context, Heterogeneous Data Training |
 | 484 | [lava/matplotlib-cpp](https://github.com/lava/matplotlib-cpp) | C++ | 2026-01-08 | Extremely simple yet powerful header-only C++ plotting library built on the popular matplotlib |
-| 485 | [obsidianmd/obsidian-skills](https://github.com/obsidianmd/obsidian-skills) | Shell | 2026-01-08 | Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas. |
+| 485 | [obsidianmd/obsidian-skills](https://github.com/obsidianmd/obsidian-skills) | Shell | 2026-01-08 | Teach your agent to use Obsidian and open formats including Markdown, Bases, JSON Canvas. |
 | 486 | [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files) | Shell | 2026-01-08 | Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof markdown plans, session recovery after /clear and c… |
 | 487 | [ysyisyourbrother/SYSU_Notebook](https://github.com/ysyisyourbrother/SYSU_Notebook) | Python | 2026-01-08 | 本项目分享了中山大学计算机学院本科和研究生阶段的课程资料、笔记、期末考试卷和其他实用的相关资源。希望对同学们的学习有所帮助❤️，如果喜欢记得给个star🌟 |
 | 488 | [NVIDIA/cutile-python](https://github.com/NVIDIA/cutile-python) | Python | 2026-01-08 | cuTile is a programming model for writing parallel kernels for NVIDIA GPUs |
