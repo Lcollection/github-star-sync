@@ -2978,11 +2978,12 @@
     {
       "full_name": "wiltodelta/remove-ai-watermarks",
       "url": "https://github.com/wiltodelta/remove-ai-watermarks",
-      "description": "Remove visible and invisible AI watermarks from images and video, and AI provenance metadata from images, video, and audio. Python library, CLI, and agent skill for SynthID, C2PA, EXIF, IPTC, XMP, and common generative-AI marks. By Victor Kuznetsov.",
+      "description": "Remove visible and invisible AI watermarks from images and video, clean supported audio watermarks, and strip AI provenance metadata. Python library, CLI, and agent skill for SynthID, C2PA, and other AI marks. By Victor Kuznetsov.",
       "language": "Python",
       "topics": [
         "agent-skill",
         "ai-watermark",
+        "audio-watermarking",
         "c2pa",
         "cli",
         "comfyui",
@@ -2999,8 +3000,7 @@
         "synthid",
         "veo",
         "video-processing",
-        "watermark-removal",
-        "watermark-remover"
+        "watermark-removal"
       ],
       "starred_at": "2026-05-21T03:36:30Z",
       "archived": false,

@@ -209,7 +209,7 @@
 | 203 | [romitjain/kachua-mlsys](https://github.com/romitjain/kachua-mlsys) | Python | 2026-05-24 | [MLSys 26] 🥇 Solution for Gated Delta Net Track of MLSys 26 Flash infer competition |
 | 204 | [bytedance/Lance](https://github.com/bytedance/Lance) | Python | 2026-05-22 | A 3B-active-parameter native unified multimodal model for image and video understanding, generation, and editing. |
 | 205 | [walkinglabs/learn-harness-engineering](https://github.com/walkinglabs/learn-harness-engineering) | TypeScript | 2026-05-21 | Harness engineering beginner tutorial, from 0 to 1 |
-| 206 | [wiltodelta/remove-ai-watermarks](https://github.com/wiltodelta/remove-ai-watermarks) | Python | 2026-05-21 | Remove visible and invisible AI watermarks from images and video, and AI provenance metadata from images, video, and audio. Python library,… |
+| 206 | [wiltodelta/remove-ai-watermarks](https://github.com/wiltodelta/remove-ai-watermarks) | Python | 2026-05-21 | Remove visible and invisible AI watermarks from images and video, clean supported audio watermarks, and strip AI provenance metadata. Pytho… |
 | 207 | [sablin39/tilelang-cuda-skills](https://github.com/sablin39/tilelang-cuda-skills) | Python | 2026-05-20 | Skills for writing tilelang and debugging with CUDA toolkits. |
 | 208 | [chatclimate-ai/ParseStudio](https://github.com/chatclimate-ai/ParseStudio) | Python | 2026-05-18 | python package to parse pdfs with different parsers |
 | 209 | [iamgio/quarkdown](https://github.com/iamgio/quarkdown) | Kotlin | 2026-05-18 | 🪐 Markdown with superpowers: from ideas to papers, presentations, websites, books, and knowledge bases. |
