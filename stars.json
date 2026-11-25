@@ -1,7 +1,27 @@
 {
   "username": "Lcollection",
-  "count": 1127,
+  "count": 1128,
   "repositories": [
+    {
+      "full_name": "google-antigravity/antigravity-sdk-python",
+      "url": "https://github.com/google-antigravity/antigravity-sdk-python",
+      "description": "A Python library for building AI agents that leverage the full power of Google Antigravity.",
+      "language": "Python",
+      "topics": [
+        "ai-agents",
+        "antigravity",
+        "gemini",
+        "gemini-api",
+        "google",
+        "llm-agents",
+        "mcp",
+        "python-sdk",
+        "skills"
+      ],
+      "starred_at": "2026-11-25T08:02:29Z",
+      "archived": false,
+      "fork": false
+    },
     {
       "full_name": "TensorLean/TensorLean",
       "url": "https://github.com/TensorLean/TensorLean",
@@ -161,7 +181,7 @@
     {
       "full_name": "BaaRai/ARTEX",
       "url": "https://github.com/BaaRai/ARTEX",
-      "description": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
+      "description": "Actively maintained ARTEX: AI autonomous penetration testing system. Self-hosted, model-agnostic, evidence-backed findings. Community continuation of Autumn-27/ARTEX, AGPL-3.0.",
       "language": "Go",
       "topics": [
         "ai",
@@ -6431,8 +6451,8 @@
       "fork": false
     },
     {
-      "full_name": "antfu-collective/vite-node",
-      "url": "https://github.com/antfu-collective/vite-node",
+      "full_name": "made-in-common/vite-node",
+      "url": "https://github.com/made-in-common/vite-node",
       "description": "Vite as Node.js runtime",
       "language": "TypeScript",
       "topics": [
@@ -12191,7 +12211,7 @@
       "full_name": "xdevplatform/samples",
       "url": "https://github.com/xdevplatform/samples",
       "description": "Sample code for the X API v2 endpoints",
-      "language": "Python",
+      "language": "Java",
       "topics": [
         "java",
         "javascript",
