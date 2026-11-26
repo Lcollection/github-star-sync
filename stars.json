@@ -1,7 +1,17 @@
 {
   "username": "Lcollection",
-  "count": 1128,
+  "count": 1129,
   "repositories": [
+    {
+      "full_name": "googlecolab/google-colab-cli",
+      "url": "https://github.com/googlecolab/google-colab-cli",
+      "description": "A CLI for interacting with Google Colab runtimes",
+      "language": "Python",
+      "topics": [],
+      "starred_at": "2026-11-26T03:11:44Z",
+      "archived": false,
+      "fork": false
+    },
     {
       "full_name": "google-antigravity/antigravity-sdk-python",
       "url": "https://github.com/google-antigravity/antigravity-sdk-python",
@@ -154,7 +164,7 @@
     {
       "full_name": "elementalsouls/Claude-BugHunter",
       "url": "https://github.com/elementalsouls/Claude-BugHunter",
-      "description": "A Claude Code skill bundle for bug hunting and external red-team work - 84 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+      "description": "A Claude Code skill bundle for bug hunting and external red-team work - 85 skills, 16 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
       "language": "Python",
       "topics": [
         "ai-security",
@@ -1304,7 +1314,7 @@
       "full_name": "deepseek-ai/DeepSelect",
       "url": "https://github.com/deepseek-ai/DeepSelect",
       "description": "DeepSelect: TopK kernels for DeepSeek Sparse Attention (DSA) and Samplers",
-      "language": "Cuda",
+      "language": "C++",
       "topics": [],
       "starred_at": "2026-09-10T14:42:06Z",
       "archived": false,
