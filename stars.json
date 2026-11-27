@@ -196,6 +196,7 @@
       "topics": [
         "ai",
         "ai-agents",
+        "artex",
         "autonomous-agents",
         "bug-bounty",
         "docker",
@@ -208,7 +209,6 @@
         "pentest",
         "postgresql",
         "rea",
-        "react",
         "red-team",
         "security",
         "security-automation",
