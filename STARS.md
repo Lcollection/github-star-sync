@@ -8,7 +8,7 @@
 | 2 | [google-antigravity/antigravity-sdk-python](https://github.com/google-antigravity/antigravity-sdk-python) | Python | 2026-11-25 | A Python library for building AI agents that leverage the full power of Google Antigravity. |
 | 3 | [TensorLean/TensorLean](https://github.com/TensorLean/TensorLean) | — | 2026-11-24 | Formal verification framework for NVIDIA GPU kernels at the PTX level. |
 | 4 | [RightNow-AI/RightNow-GPU-Database](https://github.com/RightNow-AI/RightNow-GPU-Database) | — | 2026-11-24 | Comprehensive GPU specifications database with 2,824 GPUs across NVIDIA, AMD, and Intel |
-| 5 | [EL4CTEO/fast-anything](https://github.com/EL4CTEO/fast-anything) | Rust | 2026-11-23 | Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, pro… |
+| 5 | [EL4CTEO/fast-anything](https://github.com/EL4CTEO/fast-anything) | Rust | 2026-11-23 | Don't rewrite it in Rust. Rewrite the 5% that's slow: profile your app, port the hot functions with your coding agent, prove they behave th… |
 | 6 | [restatedev/restate](https://github.com/restatedev/restate) | Rust | 2026-11-23 | Restate is the platform for building resilient applications that tolerate all infrastructure faults w/o the need for a PhD. |
 | 7 | [facebookresearch/faiss](https://github.com/facebookresearch/faiss) | C++ | 2026-11-23 | A library for efficient similarity search and clustering of dense vectors. |
 | 8 | [dolthub/dolt](https://github.com/dolthub/dolt) | Go | 2026-11-23 | Dolt – Git for Data |
@@ -23,7 +23,7 @@
 | 17 | [kubeflow/trainer](https://github.com/kubeflow/trainer) | Go | 2026-11-16 | Distributed AI Model Training and LLM Fine-Tuning on Kubernetes |
 | 18 | [zhuconv/herdr-config](https://github.com/zhuconv/herdr-config) | JavaScript | 2026-11-13 |  |
 | 19 | [OpenRSI-Foundation/OpenRSI-Index](https://github.com/OpenRSI-Foundation/OpenRSI-Index) | Python | 2026-11-12 |  |
-| 20 | [Butterfingrz/DeepEP-Ascend](https://github.com/Butterfingrz/DeepEP-Ascend) | — | 2026-11-11 | A high-performance communication library for machine learning training and inference on Huawei Ascend NPUs. |
+| 20 | [Butterfingrz/DeepEP-Ascend](https://github.com/Butterfingrz/DeepEP-Ascend) | C++ | 2026-11-11 | A high-performance communication library for machine learning training and inference on Huawei Ascend NPUs. |
 | 21 | [02hyc/IdeaEval](https://github.com/02hyc/IdeaEval) | Python | 2026-11-11 | IdeaEval: impact-oriented evaluation of scientific hypothesis generation — benchmark, evaluator, and ideation baselines |
 | 22 | [NVIDIA/pyxis](https://github.com/NVIDIA/pyxis) | C | 2026-11-09 | Container plugin for Slurm Workload Manager |
 | 23 | [PrimeIntellect-ai/prime-rl](https://github.com/PrimeIntellect-ai/prime-rl) | Python | 2026-11-09 | Agentic RL Training at Scale |

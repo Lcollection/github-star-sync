@@ -55,7 +55,7 @@
     {
       "full_name": "EL4CTEO/fast-anything",
       "url": "https://github.com/EL4CTEO/fast-anything",
-      "description": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
+      "description": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile your app, port the hot functions with your coding agent, prove they behave the same. Python, JS/TS, Ruby, Java, Kotlin, Go, PHP, C/C++, C#, R.",
       "language": "Rust",
       "topics": [
         "agent-skills",
@@ -344,7 +344,7 @@
       "full_name": "Butterfingrz/DeepEP-Ascend",
       "url": "https://github.com/Butterfingrz/DeepEP-Ascend",
       "description": "A high-performance communication library for machine learning training and inference on Huawei Ascend NPUs.",
-      "language": null,
+      "language": "C++",
       "topics": [],
       "starred_at": "2026-11-11T05:33:55Z",
       "archived": false,
